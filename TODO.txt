@@ -1,0 +1,10 @@
+Try color constancy based normalization suggested by that one paper
+
+Clean data by seeking out the solid bright colors in those markers that doctors use.
+
+Preserving aspect ratio may be helpful.
+Do a smart crop along with your resize.
+Is there a way to have at least a slightly better aspect ratio preservation without locating the lesion?
+
+Augment your data with random transformations.
+Or look into the group actions paper suggested by christian... can you implement the ideas there?
